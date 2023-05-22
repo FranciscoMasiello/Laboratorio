@@ -30,40 +30,61 @@
         <tbody>
             <tr>
                 <td>NOMBRE</td>
-                <td>__________</td>
+                <td><label for="Nombre"></label>
+                    <input id="Nombre" name="Nombre">
+                </td>
             </tr>
             <tr>
                 <td>APELLIDO</td>
-                <td>__________</td>
+                <td><label for="Apellido"></label>
+                    <input id="Apellido" name="Apellido">
+                </td>
             </tr>
             <tr>
                 <td>PAÍS</td>
-                <td>__________</td>
+                <td><label for="Pais"></label>
+                    <input id="Pais" name="Pais">
+                </td>
             </tr>
             <tr>
                 <td>EMAIL</td>
-                <td>__________</td>
+                <td><label for="EMAIL"></label>
+                    <input id="EMAIL" name="EMAIL">
+                </td>
             </tr>
             <tr>
-                <td>TRABAJO</td>
-                <td>__________</td>
+                <td colspan="2">¿TRABAJA?
+                    <input type="radio" name="TRABAJO" value="1">SI
+                    <input type="radio" name="TRABAJO" value="2">NO
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">GENERO :
+                    <input type="radio" name="sexo" value="1">M
+                    <input type="radio" name="sexo" value="2">F
+                    <input type="radio" name="sexo" value="3">Otro</td>
             </tr>
         </tbody>
 
         <tfoot>
             <tr>
-                <th colspan="2">.</th>
+                <th colspan="2">
+                    <input type="checkbox" name="terminos y condiciones" value="1">Acepto los terminos y condiciones
+                </th>
             </tr>
         </tfoot>
     </table>
 
 <br/>
 
-    GENERO :
-    <input type="radio" name="sexo" value="1">M
-    <input type="radio" name="sexo" value="2">F
-    <input type="radio" name="sexo" value="3">Otro
-</body>
+INTERESES :<br/>
+<input type="checkbox" name="intereses" value="1"> Libros <br/>
+<input type="checkbox" name="intereses" value="2"> Peliculas y series<br/>
+<input type="checkbox" name="intereses" value="3"> Arte<br/>
+<input type="checkbox" name="intereses" value="4"> Deportes<br/>
+<input type="checkbox" name="intereses" value="5"> Gaming<br/>
+<input type="checkbox" name="intereses" value="6"> Ninguno de los anteriores<br/>
 
+</body>
 
 </html>
