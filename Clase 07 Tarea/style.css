@@ -20,13 +20,15 @@ header{
     background-color: antiquewhite;
     height: 20px;
 }*/
-.input{
-
+header .input{
+    margin-right: 47%;
+    margin-top: 30px;
 }
 
 .portada{
     display: flex;
     justify-content: center;
+    margin: 50px;
 }
 
 .flex-container{
@@ -38,13 +40,14 @@ header{
     flex-wrap: wrap;
 
 }
-.flex-item{
+.flex-item img{
     background-color: antiquewhite ;
     color: black;
     width: 400px;
-    height: px;
+    height: 400px;
     margin: 10px;
     font-size: 50px;
+    border: 2px solid black;
 }
 
 /*.aside{
