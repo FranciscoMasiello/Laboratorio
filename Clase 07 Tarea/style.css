@@ -1,8 +1,10 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: content-box;
     font-family: 'Poppins', sans-serif;
+}
+html {
+    color-scheme: dark;
 }
 
 header{
@@ -24,6 +26,7 @@ header{
     display: flex;
     background-color: tan;
     width: 80%;
+    height: 50vh;
 }
 .flex-item{
     background-color: antiquewhite ;
@@ -40,7 +43,13 @@ header{
     float: right;
     text-decoration: none;
 }
-.footer{
+footer{
     display: flex;
     background-color: orange;
+    
+}
+.footer{
+    background-color: antiquewhite;
+    color: black;
+    
 }
