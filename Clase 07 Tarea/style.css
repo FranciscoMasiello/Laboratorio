@@ -26,8 +26,12 @@ header{
     height: 20px;
 }*/
 header .input{
-    margin-right: 47%;
-    margin-top: 30px;
+    margin-right: 40%;
+    margin-top: 40px;
+}
+input{
+    width: 500px;
+    height: 30px;
 }
 
 .portada{
