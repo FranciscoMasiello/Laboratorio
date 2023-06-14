@@ -1,0 +1,63 @@
+.contenedor{
+    display: grid;
+    height: 933px;
+    /*grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;*/
+    background-color: beige;
+    gap: 1px;
+    padding: 10px;
+    /*grid-template-columns: 1fr 1fr 1fr 1fr;
+    /*colum-gap y row-gap son los espacios entre columnas y filas*/
+    /*'gap: fila-columna' ya te da el espacio entre ambas, primero filas, despues columnas*/
+    grid-template-areas: 'header header header header header header'
+    'Two Two Three Three Four Four'
+    'Two Two Five Five . .';
+}
+
+.contenedor > div{
+    background-color: aqua;
+    padding: 20px;
+    border: 1px solid black;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+.item1{
+    grid-area: header;
+}
+.item2{
+    grid-area: Two;
+}
+.item3{
+    grid-area: Three; 
+}
+.item4{
+    grid-area: Four;
+}
+.item5{
+    grid-area: Five;;
+}
+
+
+
+.a{
+    background-color: beige;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid yellowgreen;
+}
+.b{
+    background-color: beige;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid yellowgreen;
+}
+.c{
+    background-color: beige;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 2px solid yellowgreen;
+}
