@@ -24,6 +24,7 @@
 
 .item1{
     grid-area: header;
+    display: grid;
 }
 .item2{
     grid-area: Two;
@@ -39,15 +40,18 @@
 }
 
 
-
-.a{
+.item1 .text{
     background-color: beige;
-    padding: 20px;
-    margin: 20px;
+    padding: 10px;
+    margin: 10px;
     border-radius: 10px;
     border: 2px solid yellowgreen;
 }
-.b{
+
+/*.contenedor .item1{
+    display: grid;
+}
+/*.b{
     background-color: beige;
     padding: 20px;
     margin: 20px;
@@ -60,4 +64,4 @@
     margin: 20px;
     border-radius: 10px;
     border: 2px solid yellowgreen;
-}
+}*/
