@@ -12,6 +12,8 @@ img{
     height: 100%;
     border-radius: 30px;
     object-fit: cover;
+    border: solid 2px #000;
+    border-radius: 30px;
 }
 
 .item-a{
@@ -24,10 +26,5 @@ img{
     grid-row: 2/4;
 }
 .item-d{
-    grid-column: 1/2;
-}
-
-div{
-    border: solid 2px #000;
-    border-radius: 30px;
+    grid-column: 3/5;
 }
