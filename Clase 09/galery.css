@@ -24,9 +24,10 @@ img{
     grid-row: 2/4;
 }
 .item-d{
-    grid-column: 3/5;
+    grid-column: 1/2;
 }
 
 div{
     border: solid 2px #000;
+    border-radius: 30px;
 }
