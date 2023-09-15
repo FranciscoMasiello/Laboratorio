@@ -90,3 +90,5 @@ let dataFilter = dataPersona.filter((element)=>{
 })
 
 console.table(dataFilter);
+
+// ACCESO AL DOM => getByElement
